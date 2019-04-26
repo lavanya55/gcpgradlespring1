@@ -33,6 +33,6 @@ dependencyManagement {
 task copyJar(type: Copy) {
     dependsOn   'build'
     from        "build/libs/gcpgradlespring1-0.0.1-SNAPSHOT.jar"
-    into        'build/docker'
+    into        'jar'
 }
 
